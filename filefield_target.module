@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains filefield_target.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function filefield_target_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the filefield_target module.
+    case 'help.page.filefield_target':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('File field formatter with target') . '</p>';
+      return $output;
+
+    default:
+  }
+}

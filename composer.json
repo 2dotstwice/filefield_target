@@ -1,0 +1,14 @@
+{
+  "name": "drupal/filefield_target",
+  "type": "drupal-module",
+  "description": "File field formatter with target",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/filefield_target",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/filefield_target",
+    "source": "http://cgit.drupalcode.org/filefield_target"
+  },
+  "require": { }
+}

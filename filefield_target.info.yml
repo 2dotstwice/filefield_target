@@ -1,0 +1,5 @@
+name: filefield_target
+type: module
+description: File field formatter with target
+core: 8.x
+package: Custom
