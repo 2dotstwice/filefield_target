@@ -10,5 +10,10 @@
     "issues": "https://www.drupal.org/project/issues/filefield_target",
     "source": "http://cgit.drupalcode.org/filefield_target"
   },
-  "require": { }
+  "require": { },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  }
 }
