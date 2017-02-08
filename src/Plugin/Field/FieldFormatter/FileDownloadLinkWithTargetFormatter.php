@@ -9,7 +9,6 @@ use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Link;
 use Drupal\Core\Template\Attribute;
-use Drupal\file\Entity\File;
 use Drupal\file_entity\Entity\FileEntity;
 use Drupal\file_entity\Plugin\Field\FieldFormatter\FileDownloadLinkFormatter;
 
